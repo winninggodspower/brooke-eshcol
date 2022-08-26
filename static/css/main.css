@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-html{
-    font-family: 'Poppins', sans-serif;
+html, body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.text-primary{
+    color: #045DA0;
+}
+
+h1{
+    line-height: 54px;
 }
