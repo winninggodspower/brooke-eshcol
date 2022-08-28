@@ -1,0 +1,155 @@
+@import url(./main.css);
+
+header{
+    background: #045DA02E !important;
+ }
+ 
+ .hero-img-wrapper{
+     /* background: #045DA054 !important; */
+ }
+ 
+ nav{
+     border-bottom: 1px solid #045DA054
+ }
+ 
+ h1{
+     line-height: 54px;
+     font-size: 36px;
+ }
+ 
+ .hero-section{
+     height: 568px;
+ }
+ 
+ .hero-text p{
+     font-size: 16px;
+     margin-top: 16px;
+ }
+ 
+ .hero-btns{
+     margin-top: 55px;
+ }
+ 
+ .hero-btns .btn{
+     border-radius: 5px !important;
+     font-size: 16px !important;
+     width: 175px;
+     height: 54px;
+     border: 1px solid #A00716 !important;
+ }
+ 
+ .hero-btns .btn:first-of-type{
+     background-color: #A00716 !important;
+ }
+
+ .hero-btns .btn:hover{
+    color: white !important;
+ }
+ 
+ 
+.hero-img-container{
+    z-index: -1;
+    left: -50%;
+}
+ 
+
+ /* styling for the 3 dots */
+ .circle-nav-container{
+    column-gap: 10px;
+    bottom: 60px !important;
+ }
+ 
+ .circle-nav{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    background: #A0071694;
+ }
+
+ .circle-nav:hover{
+    background: var(--danger);
+ }
+ 
+ .circle-nav-active{
+    background-color: var(--danger);
+ }
+
+ .about-section{
+    margin-top: 19px;
+ }
+
+ .meet-us-texts{
+    /* width: 126px; */
+    width: fit-content !important;
+    margin: auto;
+ }
+ 
+ .meetus{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    border-bottom-width: 6px !important;
+    /* border-bottom: 126px var(--primary); */
+
+ }
+
+ 
+ .line{
+    height: 6px;
+    width: 126px;
+    background-color: red;
+    display: block;
+    margin: auto;
+
+ }
+
+
+ .about-text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-top: 40px;
+
+ }
+
+ .mision-container{
+    height: 120px;
+    width: 120px;
+ }
+
+
+ #mision-statement, #vision-statement{
+    width: 400px;
+ }
+
+ /* media query for responsive design */
+ @media (max-width: 800px) {
+     .hero-text-container{
+         text-align: center;
+     }
+     .hero-btns{
+         display: flex;
+         column-gap: 5px;
+     }
+ 
+     .hero-img-container{
+        background: #045DA02E !important;
+        left: -85%;
+     }
+
+     .hero-img{
+        background: #045DA02E !important;
+     }
+ 
+     .navbar-nav{
+         text-align: center;
+     }
+     .nav-link{
+         color: var(--primary) !important;
+         font-weight: 500 !important;
+     }
+ 
+ }

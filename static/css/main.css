@@ -2,12 +2,28 @@
 
 html, body{
     font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
 }
 
+:root{
+    --primary: #045DA0;
+    --danger: #A00716;
+    --dark: #000000E5;
+}
+
+/* reuseable css clases */
 .text-primary{
-    color: #045DA0;
+    color: #045DA0 !important;
 }
 
-h1{
-    line-height: 54px;
+.text-danger{
+    color: #A00716 !important;
+}
+
+.text-dark{
+    color: #000000E5 !important;
+}
+
+.bg-primary{
+    background-color: var(--primary);
 }
