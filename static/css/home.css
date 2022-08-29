@@ -75,11 +75,13 @@ header{
  }
 
  .about-section{
-    margin-top: 19px;
+    padding-top: 19px;
+    padding-bottom: 77px;
+    background: url("../assets/img/mision-vision-bg.png");
+    background-clip: border-box;
  }
 
  .meet-us-texts{
-    /* width: 126px; */
     width: fit-content !important;
     margin: auto;
  }
@@ -89,23 +91,21 @@ header{
     font-weight: 400;
     line-height: 48px;
     letter-spacing: 0em;
-    border-bottom-width: 6px !important;
-    /* border-bottom: 126px var(--primary); */
-
+    border-bottom-width: 2px !important;
  }
 
  
  .line{
-    height: 6px;
-    width: 126px;
-    background-color: red;
+    height: 2px;
     display: block;
+    margin-top: 2px !important;
     margin: auto;
 
  }
 
 
  .about-text{
+    min-height: 90px;
     font-size: 15px;
     font-weight: 400;
     line-height: 23px;
@@ -123,6 +123,7 @@ header{
 
  #mision-statement, #vision-statement{
     width: 400px;
+    margin-top: 10px;
  }
 
  /* media query for responsive design */
