@@ -110,7 +110,7 @@ header{
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0em;
-    text-align: justified;
+    text-align: justify;
     margin-top: 40px;
 
  }
@@ -125,6 +125,33 @@ header{
     width: 400px;
     margin-top: 10px;
  }
+
+
+#our-service{
+    padding-top: 25px;
+}
+
+.service-icon{
+    height: 115.72054290771484px;
+    width: 94.81735229492188px;
+
+}
+
+.services{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.learn-more-icon{
+    margin-bottom: 76px;
+}
+
+
+#membership-package-container{
+    background: #045DA0;
+}
 
  /* media query for responsive design */
  @media (max-width: 800px) {
