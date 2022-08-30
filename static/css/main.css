@@ -27,3 +27,7 @@ html, body{
 .bg-primary{
     background-color: var(--primary);
 }
+
+.bg-danger{
+    background-color: var(--danger);
+}
