@@ -1,5 +1,31 @@
 @import url('./main.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 #signup-btn{
     margin-top: 19px;
 }
+
+.form-wrapper {
+    margin-top: 19px;
+}
+
+.icon-container {
+    width: 43px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.skill-never-expires-text{
+    font-family: 'Itim', cursive;
+    /* font-size: 50px;  */
+    font-weight: 400;
+    /* line-height: 40px !important; */
+    text-align: left;
+    padding-bottom: 50px;
+}
+
