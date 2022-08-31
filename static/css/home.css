@@ -1,5 +1,13 @@
 @import url(./main.css);
 
+html{
+    scroll-behavior: smooth;
+}
+
+section, *{
+    scroll-behavior: smooth;
+}
+
 header{
     background: #045DA02E !important;
  }
