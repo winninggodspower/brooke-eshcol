@@ -1,0 +1,87 @@
+.services-list{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#services-list-container{
+    width: 60% !important;
+    margin-bottom: 49px;
+
+
+}
+
+.services-name{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.services-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+#contact-us-section{
+}
+
+.service-container{
+    margin-bottom: 125px;
+}
+
+
+#contact-btn-container{
+    /* height: 637px; */
+    max-width: 952px;
+    /* left: 209px; */
+    margin-top: 22px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+    padding: 60px 20px !important;
+}
+
+.contact-container{
+    margin-bottom: 17px;
+}
+
+#get-in-touch-text{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+input, textarea{
+    background-color: #D9D9D9;
+}
+
+input, textarea, #submit-btn{
+    margin-top: 25px;
+}
+
+textarea{
+    height: 198px;
+}
+
+#form-illustration{
+    margin-bottom: 67px;
+}
+
+.px-15{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.mt-19{
+    margin-top: 19px;
+}
+
+/* media query for responsive design */
+@media (max-width: 800px) {
+    #services-list-container{
+        width: 100% !important;
+    }
+
+}

@@ -18,6 +18,7 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="../static/css/home.css">
+    <link rel="stylesheet" href="../static/css/services.css">
 </head>
 
 <body class="">
@@ -68,7 +69,7 @@
                     </h1>
                     <p id="hero-ptext" class="text-dark">Our services cuts across creating IT solutions,  suppliing IT gadgets to
                         large and small companies and most importantly, IT trainings.</p>
-                    <div class="hero-btns ">
+                    <div class="hero-btns d-flex d-md-block justify-content-center">
                         <button class="btn btn-danger me-md-4">Talk to us</button>
                     </div>
                 </div>
@@ -84,7 +85,136 @@
             </div>
 
         </section>
-        
+
+        <div class="circle-nav-container position-absolute mx-auto d-flex justify-content-center w-100">
+            <span id="circle-nav1" class="circle-nav  rounded-circle d-block circle-nav-active"></span>
+            <span id="circle-nav2" class="circle-nav  rounded-circle d-block"></span>
+            <span id="circle-nav3" class="circle-nav  rounded-circle d-block"></span>
+        </div>
+    </header>
+
+
+    <section id="services-list-container" class=" px-5 mx-auto">
+        <div class="w-100 d-flex justify-content-between">
+            <a href="#" class="services-list text-dark text-decoration-none">Training</a>
+            <a href="#" class="services-list text-dark text-decoration-none">IT supplies</a>
+            <a href="#" class="services-list text-dark text-decoration-none">IT solutions</a>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div class="row service-container">
+            <div class="col-12 col-md">
+                <div class="d-flex d-md-block justify-content-center">
+                    <img src="../static/assets/img/training-icon.png" alt="">
+                </div>
+                <span class="services-name text-primary d-block text-center text-md-start">Training</span>
+                <p class="w-75 mt-19 text-center text-md-start m-auto m-md-0 px-15" >We provide intense and highly professional 
+                    courses including hardware, software and design trainings. Project based learning is what we solely focus on.
+                </p>
+                <div class="hero-btns d-flex d-md-block justify-content-center mt-19">
+                    <button class="btn btn-danger me-md-4 fw-bold">View courses</button>
+                </div>
+            </div>
+            <div class="col-12 col-md d-none d-md-block">
+                <img src="../static/assets/img/team-working.png" alt="">
+            </div>
+        </div>
+
+        <div class="row service-container">
+            <div class="col-12 col-md d-none d-md-block">
+                <img src="../static/assets/img/it-supplies-gadget.png" alt="">
+            </div>
+            <div class="col-12 col-md ms-0 ms-md-5">
+                <div class="d-flex d-md-block justify-content-center">
+                    <img src="../static/assets/img/it-supplies-icon.png" alt="">
+                </div>
+                <span class="services-name text-primary d-block text-center text-md-start">IT supplies</span>
+                <p class="w-75 mt-19 text-center text-md-start m-auto m-md-0 px-15" >
+                    Hardware supplies for company and personal usage gadgets at very affordable prices both in bulk and single sale purchases.  Original and trustworthy gadget with long term guarantee 
+                </p>
+                <div class="hero-btns d-flex d-md-block justify-content-center mt-19">
+                    <button class="btn btn-danger me-md-4 fw-bold">View supplies</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row service-container">
+            <div class="col-12 col-md">
+                <div class="d-flex d-md-block justify-content-center">
+                    <img src="../static/assets/img/it-solution-icon.png" alt="">
+                </div>
+                <span class="services-name text-primary d-block text-center text-md-start">IT solutions</span>
+                <p class="w-75 mt-19 text-center text-md-start m-auto m-md-0 px-15" >
+                    We  build usable, Friendly and universally acceptable product for both individual purposes and compoanies 
+                </p>
+                <div class="hero-btns d-flex d-md-block justify-content-center mt-19">
+                    <button class="btn btn-danger me-md-4 fw-bold">View solution</button>
+                </div>
+            </div>
+            <div class="col-12 col-md d-none d-md-block">
+                <img src="../static/assets/img/it-solutions-hand-clickilng.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us-section" class="mb-5">
+        <div style="margin-top: 47px;">
+            <img src="../static/assets/img/border-img-1.png" alt="">
+        </div>
+        <div class="meet-us text-center mx-auto" style="width: fit-content; margin-top: 42px;">
+            <span class="meetus text-center border-bottom border-primary">Contact Us</span>
+            <span class="line bg-danger"></span>
+        </div>
+        <div id="contact-btn-container" class="row mx-auto">
+            <div class="col-12 col-md">
+                <h4 id="get-in-touch-text" class="text-primary">Get in Touch</h4>
+                <p>We are here for you! How can we help you?</p>
+                
+                <form action="" method="POST" role="form">
+                
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="useremail" name="username" placeholder="Enter your name" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="useremail" name="useremail" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" name="message" rows="10" placeholder="Write down your message to us"  ></textarea>
+                    </div>
+                    
+                    <button type="submit" id="submit-btn" class="btn btn-danger bg-danger w-100">Submit</button>
+                </form>
+                
+            </div>
+            <div class="col-12 col-md">
+                <img id="form-illustration" src="../static/assets/img/24-7-service-illustration.png" alt="">
+                <ul class="">
+                    <li class="d-flex flex-wrap contact-container">
+                        <img class="me-2" src="../static/assets/img/phone-icon.png" width="35px" height="35px" alt="">
+                        <p><a class="text-dark text-decoration-none" href="tel:+2347054999071">+ (234) 705 499 9071</a></p>
+                    </li>
+                    <li class="d-flex flex-wrap contact-container">
+                        <img class="me-2" src="../static/assets/img/email-icon.png" width="35px" height="35px" alt="">
+                        <p><a class="text-dark text-decoration-none" href="mailto:contact@brookeeshcol.com">contact@brookeeshcol.com</a></p>
+                    </li>
+                    <li class="d-flex contact-container">
+                        <img class="me-2" src="../static/assets/img/location-icon.png" width="35px" height="35px" alt="">
+                            <p>
+                                Address: Uniport Mall
+                                Abuja Park, University of 
+                                Port Harcourt, Nigeria
+                            </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-bottom: 129px;">
+            <img src="../static/assets/img/border-img-2.png" alt="">
+        </div>
+    </section>
 
     <script src="../static/js/library/jquery-3.6.0.js"></script>
     <script src="../static/js/image-slider.js"></script>
