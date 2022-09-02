@@ -3,6 +3,7 @@
 #hero-section{
     background: url('../assets/img/courses-hero-section.png');
     height: 705px;
+    max-height: 100vh;
 }
 
 #search-box::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -21,6 +22,7 @@
 
 #search-form{
     width: 955px;
+    max-width: 100%;
 }
 
 #search-icon-wrapper{
@@ -45,6 +47,10 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+}
+
+.course-container{
+    margin-top: 48px;
 }
 
 /* media query for responsive design */
