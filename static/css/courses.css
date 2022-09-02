@@ -1,0 +1,56 @@
+@import url('./main.css');
+
+#hero-section{
+    background: url('../assets/img/courses-hero-section.png');
+    height: 705px;
+}
+
+#search-box::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: var(--danger);
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: var(--danger);
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: var(--danger);
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: var(--danger);
+  }
+
+
+#search-form{
+    width: 955px;
+}
+
+#search-icon-wrapper{
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+}
+  
+#search-box{
+    height: 63px;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+#services-list-container{
+    width: 60% !important;
+    margin-bottom: 49px;
+}
+
+.services-list{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* media query for responsive design */
+@media (max-width: 800px) {
+    #services-list-container{
+        width: 100% !important;
+    }
+
+}
