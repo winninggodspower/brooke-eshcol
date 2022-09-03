@@ -25,9 +25,6 @@
     letter-spacing: 0em;
 }
 
-#contact-us-section{
-}
-
 .service-container{
     margin-bottom: 125px;
 }
@@ -67,6 +64,11 @@ textarea{
 
 #form-illustration{
     margin-bottom: 67px;
+}
+
+input, textarea{
+    background: #D9D9D9 !important;
+    color: #191919;
 }
 
 .px-15{

@@ -25,9 +25,76 @@ html, body{
 }
 
 .bg-primary{
-    background-color: var(--primary);
+    background-color: var(--primary) !important;
 }
 
 .bg-danger{
-    background-color: var(--danger);
+    background-color: var(--danger) !important;
+}
+
+
+footer{
+    background: url(../assets/img/grey-footer.jpg);
+    background-size: 100% auto;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    
+    padding-top: 50px;
+}
+
+
+footer > section {
+    /* height: 400px; */
+    padding-top: 143px !important;
+    background-color: var(--primary);
+
+    background: url('../assets/img/blue-footer-img2.svg');
+    background-size: 100% auto;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+}
+
+footer #newsletter{
+    background: transparent !important;
+    
+}
+
+
+footer li a{
+    color: white !important;
+}
+
+.footer-header{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.footer-header-content{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#copyright-claim-section{
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+}
+
+
+@media (max-width: 800px) {
+
+    footer > section {
+        padding-top: 80px !important;
+    }
+    
+    #follow-section{
+        max-width: 60%;
+        margin: auto;
+    }
+
+    footer .nav-link{
+        color: white !important;
+    }
+    
 }

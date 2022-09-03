@@ -50,7 +50,27 @@
 }
 
 .course-container{
+    position: relative;
     margin-top: 48px;
+    height: 289px;
+    width: 371px;
+    max-width: 90% !important;
+    border-radius: 5px;
+    /* left: 490px;
+    top: 889px; */
+
+}
+
+.course-img{
+    max-width: 100%;
+}
+
+.enroll-btn{
+    border-radius: 5px !important;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    max-width: 100%;
 }
 
 /* media query for responsive design */
@@ -58,5 +78,9 @@
     #services-list-container{
         width: 100% !important;
     }
+    /* .course-container{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    } */
 
 }
